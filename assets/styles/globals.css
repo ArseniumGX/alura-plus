@@ -1,0 +1,20 @@
+:root {
+	--cor-primaria: #00030c;
+	--cor-secundaria: #fff;
+	--cor-terciaria: #167bf7;
+	--cor-quartenaria: #c0c0c0;
+	--cor-quinaria: #f9f9f9;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Inter", sans-serif;
+	box-sizing: border-box;
+	color: var(--cor-secundaria);
+}
+
+body {
+	scroll-behavior: smooth;
+	background-color: var(--cor-primaria);
+}
